@@ -6,6 +6,7 @@ from core_backend.models import Usuario
 from voluptuous.schema_builder import Required
 from backend.utils import validateData
 
+
 @api_view(['GET'])
 @permission_classes([AllowAny])
 def get_users(request):
